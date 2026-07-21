@@ -1,5 +1,7 @@
 # WML X.X.0
 
+[**TRY**](https://github.com/AdrianLargoGit/WML-X.X.0/releases/download/v1.0/wml-xx0-1.0.0-setup.exe)
+
 A desktop widget with an interactive pet, local AI, and an optional OpenAI-powered assistant. It is built with Electron, React, and TypeScript, and is designed to live quietly on top of the desktop: it keeps the user company, observes basic system signals, suggests useful actions, and always asks for confirmation before doing anything meaningful.
 
 <p align="center">
