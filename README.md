@@ -49,6 +49,29 @@ Local activity is used as a simple signal, not as content. WML X.X.0 does not re
 
 If the OpenAI model is enabled, the app sends a summarized and anonymized state: language, approximate battery level, pet state, points, enabled settings, and the current suggestion if one exists. The request uses `store: false` and expects strict JSON output. If there is no API key, no network connection, or the API returns an error, local AI is used instead.
 
+## Built With Codex
+
+WML X.X.0 was built as a solo project, but not alone. I developed it together with Codex from the beginning: designing the architecture, implementing the Electron and React code, debugging behavior, refining the UI, adjusting colors, improving animations, and shaping the AI experience.
+
+Codex helped me move from an idea to a working desktop app by acting like a coding partner throughout the whole process. We iterated on the pet widget, the settings panel, the shop system, the local AI rules, the optional OpenAI integration, and the final packaging flow.
+
+One of the most important parts of the collaboration was building the AI layer: the app uses a local rule-based assistant by default, and can optionally connect to an OpenAI model. Codex helped structure this so the assistant stays useful, privacy-minded, and safe, with a fallback system that keeps the app working even without an API key.
+
+## How Codex Helped
+
+Codex was used across the full development cycle:
+
+- Scaffolding and organizing the Electron, React, and TypeScript app.
+- Building the floating desktop widget and transparent window behavior.
+- Creating the settings panel, assistant chat, pet shop, and customization system.
+- Implementing local state, points, battery behavior, moods, and suggestions.
+- Designing the local AI model and the optional OpenAI assistant flow.
+- Debugging TypeScript, Electron IPC, packaging issues, UI layout, and edge cases.
+- Refining visual details such as colors, spacing, icon sizing, and component structure.
+- Writing documentation, project descriptions, and hackathon submission text.
+
+The project is also an experiment in AI-assisted development: not just using AI inside the product, but using Codex as a creative and technical collaborator to build the product itself.
+
 ## Requirements
 
 - Node.js compatible with the project.
