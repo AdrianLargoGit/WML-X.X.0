@@ -3,7 +3,7 @@
 A desktop widget with an interactive pet, local AI, and an optional OpenAI-powered assistant. It is built with Electron, React, and TypeScript, and is designed to live quietly on top of the desktop: it keeps the user company, observes basic system signals, suggests useful actions, and always asks for confirmation before doing anything meaningful.
 
 <p align="center">
-  <img src="public/icons/icon.png" alt="WML X.X.0 icon" width="96" />
+  <img src="/whitemirror/wml-xx0/public/icons/icon.png" alt="WML X.X.0 icon" width="96" />
 </p>
 
 ## What It Does
@@ -20,9 +20,9 @@ The app combines two assistance layers:
 Some visual assets included in the project:
 
 <p>
-  <img src="public/animals/hedgehog/erizoactivo-max-px-frames-36-rows-6-cols-6.png" alt="Hedgehog sprite" width="180" />
-  <img src="public/animals/duck/patoactivo-normalized.png" alt="Active duck" width="120" />
-  <img src="public/accessories/corona-trimmed.png" alt="Crown accessory" width="80" />
+  <img src="/whitemirror/wml-xx0/public/animals/hedgehog/erizoactivo-max-px-frames-36-rows-6-cols-6.png" alt="Hedgehog sprite" width="180" />
+  <img src="/whitemirror/wml-xx0/public/animals/duck/patoactivo-normalized.png" alt="Active duck" width="120" />
+  <img src="/whitemirror/wml-xx0/public/accessories/corona-trimmed.png" alt="Crown accessory" width="80" />
 </p>
 
 ## Main Features
